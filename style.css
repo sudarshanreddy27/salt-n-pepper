@@ -1,0 +1,195 @@
+           body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            background-image: url(pzz.jpg);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            height: 100vh;
+            color: azure;
+        }
+
+        header {
+            background-color: #333;
+            color: rgb(255, 255, 255);
+            padding: 50px 0;
+            text-align: center;
+        }
+        body{
+            
+        }
+        /* #heading{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            color: red !important;
+        }  */
+
+        #ul-li:hover{
+            color: white !important;
+
+        }
+        header h1 {
+            font-size: 3rem;
+        }
+
+        nav {
+            background-color: #555;
+            text-align: center;
+            padding: 15px 0;
+        }
+        /* .navbar-dark{
+            background-color: red !;
+        } */
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1rem;
+        }
+        #navv{
+            background-color: red !important;
+        }
+
+        nav a:hover {
+            color: white !important;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 2.5rem;
+            color: #333;
+        }
+
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .menu-item p {
+            margin: 0;
+        }
+
+        .menu-item h4 {
+            color: #ff6f61;
+        }
+
+        .carousel-item img{
+            /* height: 600px !important;   */
+            width: 600px !important;
+        }
+
+      #carouselExampleFade{
+            height: 600px !important;  
+            width: 600px !important;
+            padding: 0 !important;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+       #carouselExampleFade{
+            /* max-width: 800px; */
+            /* display: flex !important;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; */
+            left: 28%;
+
+        }
+
+        .res-comtainer{
+            display: flex !important;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .reservation-form{
+            display: flex !important;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .reservation-form input,
+        .reservation-form select,
+        .reservation-form textarea {
+            width: 350px;
+            text-align: center;
+            padding: 12px;
+            /* margin-bottom: 15px; */
+            border: 1px solid #ccc;
+            border-radius: 55px;
+            font-size: 1rem;
+        }
+
+        .reservation-form button {
+            width: fit-content;
+            padding: 15px;
+            background-color: #ff6f61;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            cursor: pointer;
+        }
+
+        .reservation-form button:hover {
+            background-color: #333;
+        }
+
+        #contact{
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           flex-direction: column;
+           padding-bottom: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+        }
+
+        .contact-form button {
+            width: 100%;
+            padding: 12px;
+            background-color: #ff7361;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #333333;
+        }
+    .food1{
+        height: 120%;
+        width: 100%;
+        /* display: flex;
+        align-items: center !important;
+        justify-content: center; */
+    }
+    .card img{
+        height: 200px;
+        width: 354px;
+        overflow: hidden;
+    }
